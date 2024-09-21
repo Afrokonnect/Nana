@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nana's Creative Concept</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f07117aff3.js" crossorigin="anonymous"></script>
+  </head>
+
+<!--Nav Bar-->
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Nana's Creative Concept</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="beauty.html">Beauty Care</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clothing.html">Clothing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Catering</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="beauty.html">Beauty</a></li>
+                  <li><a class="dropdown-item" href="clothing.html">Clothing</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<!--Welcome Section-->
+
+<div class="container" style="
+    min-height: 80vh; 
+    background-image: url('image/firstpageimage.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: gold; 
+    text-align: center; 
+    padding: 20px;">
+
+    <h2>Welcome to Nana's Creative Concept</h2>
+    <p>We're thrilled to have you here. Whether you're looking for inspiration, entertainment, or simply a place to explore new ideas, you've come to the right hub. Dive into our World where creativity meets innovation, and every experience is designed to keep you engaged.</p>
+</div>
+
+<!-- Add a media query for mobile responsiveness directly in the HTML -->
+<style>
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+        background-size: contain;
+        min-height: 50vh;
+    }
+}
+</style>
+
+
+<!--About Nana Section-->
+<div class="aboutnana-section mb-5" style="padding: 50px; background-color: #f5f5f5; max-width: 1200px; margin: auto;">
+  <div class="aboutnana-content" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+      <div class="aboutnana-image" style="flex: 1; text-align: center; padding: 20px;">
+          <img src="image/iamnanaimage.PNG" alt="I am Nana" style="max-width: 100%; height: auto;">
+      </div>
+
+      <div class="aboutnana-text" style="flex: 1; padding: 20px; text-align: center;">
+          <h2>Hi, I'm Nana!</h2>
+          <p>I've always had a knack for arts and crafts. Sharing these skills with fellow crafters is how <strong>The Creative Concept</strong> came to be! We are focused on all things related to Beauty, Clothing and Catering. Walk into our Physical Store or Speak to an expert.</p>
+          <a href="tel:+2348124613794">
+              <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                  Call Now
+              </button>
+          </a>
+      </div>
+  </div>
+</div>
+
+<!-- Add a media query for better mobile responsiveness -->
+
+<style>
+@media (max-width: 768px) {
+  .aboutnana-content {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .aboutnana-image, .aboutnana-text {
+      padding: 10px;
+  }
+
+  .aboutnana-section {
+      padding: 20px;
+  }
+}
+</style>
+
+
+<!--Beauty Saloon Services-->
+
+<div class="container beautysaloon mb-5">
+    <h2>NANA'S Beauty Care Services</h2>
+</div>
+
+
+<div class="container beautysaloon-cards mb-5">
+<div class="row">
+  <div class="col-md-4 col-12 mb-4">
+      <div class="card">
+        <img src="image/hairstylingimage.jpg" class="card-img-top" alt="hair styling image">
+        <div class="card-body">
+          <h5 class="card-title">Hair Styling & Treatments</h5>
+          <p class="card-text">Experience professional haircuts, blowouts, and a wide range of treatments like deep conditioning, keratin therapy, and scalp rejuvenation for healthy, stylish hair.</p>
+        </div>
+    </div>
+  </div>
+
+  
+<div class="col-md-4 col-12 mb-4">
+      <div class="card">
+        <img src="image/facialsandskincare.jpg" class="card-img-top" alt="Facials & Skin Care">
+        <div class="card-body">
+          <h5 class="card-title">Facials & Skin Care</h5>
+          <p class="card-text">Rejuvenate your skin with personalized facial treatments, including deep cleansing, exfoliation, hydration, and anti-aging treatments to leave your skin glowing and refreshed.</p>
+        </div>
+      </div>
+      </div>
+
+
+<div class="col-md-4 col-12 mb-4">
+      <div class="card">
+        <img src="image/manicureandpedicureimage.JPG" class="card-img-top" alt="Manicure & Pedicure">
+        <div class="card-body">
+          <h5 class="card-title">Manicure & Pedicure</h5>
+          <p class="card-text">Pamper your hands and feet with luxurious manicure and pedicure services, including nail shaping, cuticle care, massage, and polish in the latest styles and colors.</p>
+        </div>
+      </div>
+</div>
+</div>
+</div>
+
+<div class="d-flex justify-content-center mt-4 mb-5">
+        <a href="tel:+2348124613794">
+    <button type="button" class="btn btn-primary"    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Book A Session Now</button></a>
+</div>
+
+<!--Image of NCC-->
+
+<div class="container-fluid nanastore mb-5">
+<img src="image/nanaphysicalstore.jpeg" class="img-fluid" alt="Nana Physical store">
+</div>
+
+<!--Pagination-->
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link">Home</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="beauty.html">Beauty Care</a></li>
+      <li class="page-item"><a class="page-link" href="clothing.html">Clothing</a></li>
+      <li class="page-item"><a class="page-link" href="clothing.html">Catering.</a></li>
+    </ul>
+  </nav>
+
+<!--Footer-->
+
+<footer class="footer mt-5">
+    <div class="container">
+      <div class="row">
+        <h4>Nana's Creative Concept</h4>
+        <p>Email: <a href="mailto:nanascreativeconcept@gmail.com">nanascreativeconcept@gmail.com</a></p>
+      </div>
+  
+      <div class="col-md-4 col-12 mb-3">
+        <h4>Address</h4>
+      <P>Lafiya Road, Beside Barrau Diko Teaching Hospital</P>
+      </div>
+  
+      <div class="col-md-4 col-12">
+        <h4>Newsletter</h4>
+        <form action="#">
+          <input type="email" placeholder="Email address" required>
+          <button type="submit">SUBSCRIBE</button>
+        </form>
+      </div>
+    </div>
+  
+    <div class="footer-bottom text-center mt-3">
+      <p>&copy; 2024 Nana's Creative Center | Website by Afrokonnect</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

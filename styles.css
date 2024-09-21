@@ -1,0 +1,398 @@
+.body {
+    margin: 0;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+.welcome h2 {
+    font-size: 2.5rem;
+    margin-top: 15%;
+}
+
+.welcome p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 10px;
+    color: white;
+}
+
+.aboutnana-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.aboutnana-image img {
+    border-radius: 10px;
+    max-width: 300px;
+    height: auto;
+}
+
+.aboutnana-text {
+    margin-left: 30px;
+    font-size: 1.2rem;
+}
+
+.aboutnana-text h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.aboutnana-text p {
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.beautysaloon {
+    margin-bottom: 100px;
+}
+
+.beautysaloon h2 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: gold;
+    align-items: center;
+}
+
+.beautysaloon-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.nanastore {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-size: cover;
+  overflow: hidden; /* To ensure no overflow issues */
+}
+
+.nanastore img {
+  width: 100%;
+  height: 100%; /* Ensures the image fills the container */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  display: block; /* Removes any extra space around the image */
+}
+
+
+.footer {
+    background-color: gold;
+    color: #333;
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    width: 22%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer-section a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-section input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-section button:hover {
+    background-color: #444;
+  }
+  
+  .footer-bottom {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .social-icons a:hover {
+    color: #555;
+  }
+
+
+.text-content h1 {
+    font-size: 4rem;
+    color: gold;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 600px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.spaclient {
+    min-height: 80vh;
+    background-image: url(/image/Spa\ client\ 2.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    text-align: center; 
+    padding: 20px;
+}
+
+
+.treatments-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.title-content h2 {
+    font-size: 3rem;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.title-content .underline {
+    width: 100px;
+    height: 4px;
+    background-color: #b89e7b;
+    margin: 10px auto 20px;
+}
+
+.title-content p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Scoped styling for cards inside the treatment-cards container */
+.treatment-cards .card {
+  height: 400px; /* Set the same height for all cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.treatment-cards .card img {
+  width: 100%;
+  height: 70%; /* Adjust to fit the image within the card */
+  object-fit: cover; /* Ensures the image covers the available space without distortion */
+}
+
+.treatment-cards .card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%; /* Remaining height for the button */
+  background-color: #fff;
+  padding: 10px;
+}
+
+.treatment-cards .card-info button {
+  width: 100%; /* Make the button stretch to fit the card width */
+  height: 40px; /* Consistent button height */
+  font-size: 16px;
+}
+
+
+.card-info button {
+  width: 100%; /* Make the button stretch to fit the card width */
+  height: 40px; /* Consistent button height */
+  font-size: 16px;
+}
+
+
+.card-info button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #b89e7b;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card-info button:hover {
+    background-color: #b89e7b;
+    color: #fff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.trending-section {
+  padding: 50px 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.trending-section h2 {
+  font-size: 2.5rem;
+  color: gold;
+  margin-bottom: 30px;
+}
+
+.product-card {
+
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 1rem;
+  color: gold;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+
+.kitchen-section {
+  padding: 50px 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.kitchen-section h2 {
+  font-size: 2.5rem;
+  color: gold;
+  margin-bottom: 35px;
+}
+
+.kitchen-card {
+
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.kitchen-card:hover {
+  transform: scale(1.05);
+}
+
+.kitchen-card img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.kitchen-card h3 {
+  font-size: 1rem;
+  color: gold;
+  margin-bottom: 5px;
+}
